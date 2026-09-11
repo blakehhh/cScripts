@@ -26,7 +26,7 @@ private _eatStatement = {
     _player setVariable ["ace_field_rations_previousAnim", animationState _player];
     [_player, _anim, 1] call ace_common_fnc_doAnimation;
 
-    [5, [_player], {
+    [10, [_player], {
         params ["_args"];
         _args params ["_player"];
         _player setVariable ["acex_field_rations_hunger", 0, true];
